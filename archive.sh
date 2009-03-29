@@ -10,7 +10,7 @@ git stash && didstash=1
 	|while read DATE; do
 		cd $DATE &>/dev/null
 		diddate=0
-		ls -trF | egrep /$ | while read POST; do
+		ls -tF | egrep /$ | while read POST; do
 			[ $diddate == 0 ] && echo "" && echo "## $DATE" && let 'diddate ++'
 			cd $POST &>/dev/null
 			pl=$DATE/$POST
