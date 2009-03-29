@@ -11,6 +11,13 @@ Enjoy.
 
 ## 2009-03-29
 
+[2009-03-29/discipline/]: 2009-03-29/discipline/
+### Discipline [∞][2009-03-29/discipline/]
+
+Find the minimum valuable creation.  
+Entities must not be multiplied beyond necessity.  
+Minimalism is power.
+
 [2009-03-29/the-calm-of-exertion/]: 2009-03-29/the-calm-of-exertion/
 ### The Calm of Exertion [∞][2009-03-29/the-calm-of-exertion/]
 
@@ -29,21 +36,7 @@ Everyone will get by just fine.
 
 Work hard, and rest deeply.  That is the Key.
 
-[2009-03-29/discipline/]: 2009-03-29/discipline/
-### Discipline [∞][2009-03-29/discipline/]
-
-Find the minimum valuable creation.  
-Entities must not be multiplied beyond necessity.  
-Minimalism is power.
-
 ## 2009-03-28
-
-[2009-03-28/uhoh/]: 2009-03-28/uhoh/
-### Uhoh? [∞][2009-03-28/uhoh/]
-
-I *think* I *might* have just lost the whole archiving thing with `git rebase`.
-
-Or not.  Let's see.
 
 [2009-03-28/a-new-structure/]: 2009-03-28/a-new-structure/
 ### A New Structure [∞][2009-03-28/a-new-structure/]
@@ -55,6 +48,13 @@ As part of the commit of this change, I'm going to also have this snip.
 Then, I'm going to post a commit message about the change, and about the fact that this snip is commenting on the change.
 
 The metaness of this blog pleases me.
+
+[2009-03-28/uhoh/]: 2009-03-28/uhoh/
+### Uhoh? [∞][2009-03-28/uhoh/]
+
+I *think* I *might* have just lost the whole archiving thing with `git rebase`.
+
+Or not.  Let's see.
 
 ## 2009-03-27
 
