@@ -12,3 +12,4 @@ read -p "Title? " t && echo $t \
 	! [ -f "$f" ] && echo "# $t" > "$f"
 	$EDITOR "$f" && git add "$f" && git commit
 done
+./archive.sh
