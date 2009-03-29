@@ -22,6 +22,6 @@ ls -F \
 		| sed 's|^#|###|g'
 	done
 done
-) > archive/README.markdown
+) > archive/README.markdown \
 && git add archive/README.markdown &&\
 git commit -m "Generate archive"
