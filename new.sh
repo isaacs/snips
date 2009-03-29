@@ -1,13 +1,14 @@
 #!/bin/bash
-! [ -d `date '+%Y-%m-%d'` ] && mkdir `date '+%Y-%m-%d'`
-read -p "Title? " t
-<<< $t tr '[:upper:]' '[:lower:]'\
+d=$(date '+%Y-%m-%d')
+! [ -d $d ] && mkdir $d
+read -p "Title? " t && echo $t \
+|tr '[:upper:]' '[:lower:]'\
 |perl -pi -e 's/[^a-z0-9-]+/-/g;s/-+/-/g;s/^-|-$//g'\
 |(cat; echo "")\
 |while read f; do
-	! [ -d "`date '+%Y-%m-%d'`/$f" ] && mkdir -p "`date '+%Y-%m-%d'`/$f"
-	! [ -f "`date '+%Y-%m-%d'`/$f/README.markdown" ] && echo "# $t" > "`date '+%Y-%m-%d'`/$f/README.markdown"
-	$EDITOR "`date '+%Y-%m-%d'`/$f/README.markdown"
+	f="$d/$f"
+	! [ -d "$f" ] && mkdir -p "$f"
+	f="$f/README.markdown"
+	! [ -f "$f" ] && echo "# $t" > "$f"
+	$EDITOR "$f" && git add "$f" && git commit
 done
-
-
