@@ -10,6 +10,11 @@ $html = Markdown($raw);
 preg_match('~^#([^#].*)~', $raw, $matches);
 $title=$matches[1];
 
+if (!trim($html)) {
+	$html = "<h1>huh?</h1><p>There was some kind of problem, I suppose.</p>";
+	$title = "whaa?";
+}
+
 ?>
 <!DOCTYPE html>
 <html>
