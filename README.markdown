@@ -29,6 +29,13 @@ Everyone will get by just fine.
 
 Work hard, and rest deeply.  That is the Key.
 
+[2009-03-29/discipline/]: 2009-03-29/discipline/
+### Discipline [∞][2009-03-29/discipline/]
+
+Find the minimum valuable creation.  
+Entities must not be multiplied beyond necessity.  
+Minimalism is power.
+
 ## 2009-03-28
 
 [2009-03-28/uhoh/]: 2009-03-28/uhoh/
