@@ -100,4 +100,5 @@ dd {
 <?php
 $page = ob_get_contents();
 ob_end_flush();
-file_put_contents(dirname($file).'/index.html', $page);
+file_put_contents(dirname($file).'/index.html', $page . "\n<!-- cached -->");
+echo "<!-- not cached -->";
