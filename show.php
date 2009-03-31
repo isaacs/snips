@@ -1,8 +1,8 @@
 <?php 
 
-$raw = file_get_contents(
-	$_SERVER['DOCUMENT_ROOT'].$_SERVER["REQUEST_URI"].'README.markdown'
-);
+$file = $_SERVER['DOCUMENT_ROOT'].$_SERVER["REQUEST_URI"].'README.markdown';
+
+$raw = file_get_contents($file);
 
 include(dirname(__FILE__).'/markdown/markdown.php');
 $html = Markdown($raw);
@@ -14,6 +14,8 @@ if (!trim($html)) {
 	$html = "<h1>huh?</h1><p>There was some kind of problem, I suppose.</p>";
 	$title = "whaa?";
 }
+
+ob_start();
 
 ?>
 <!DOCTYPE html>
@@ -95,3 +97,7 @@ dd {
 <body>
 <?php echo $html; ?>
 </body></html>
+<?php
+$page = ob_get_contents();
+ob_end_flush();
+file_put_contents(dirname($file).'/index.html', $page);

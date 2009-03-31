@@ -2,6 +2,7 @@
 didstash=0
 git stash && didstash=1
 (
+	rm index.html	&>/dev/null
 	cat header.markdown 2>/dev/null
 	ls -F \
 	|egrep '[0-9]{4}(-[0-9]{2}){2}/$'\

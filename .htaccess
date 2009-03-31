@@ -1,4 +1,4 @@
 RewriteEngine On
-DirectoryIndex README.markdown
+DirectoryIndex index.html README.markdown
 RewriteRule README.markdown show.php
 RewriteRule \.sh$ - [F]
