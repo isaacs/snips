@@ -10,7 +10,9 @@ $html = Markdown($raw);
 preg_match('~^#([^#].*)~', $raw, $matches);
 $title=$matches[1];
 
+$error = false;
 if (!trim($html)) {
+	$error = true;
 	$html = "<h1>huh?</h1><p>There was some kind of problem, I suppose.</p>";
 	$title = "whaa?";
 }
@@ -100,5 +102,7 @@ dd {
 <?php
 $page = ob_get_contents();
 ob_end_flush();
-file_put_contents(dirname($file).'/index.html', $page . "\n<!-- cached -->");
+if (!$error) {
+	file_put_contents(dirname($file).'/index.html', $page . "\n<!-- cached -->");
+}
 echo "<!-- not cached -->";
