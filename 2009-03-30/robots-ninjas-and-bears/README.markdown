@@ -6,7 +6,7 @@
 2. Ninjas fight ALL the time.
 3. The purpose of the ninja is to flip out and kill people.
 
-<a href="http://realultimatepower.com">Source</a>
+<a href="http://realultimatepower.net">Source</a>
 
 ## Robots
 
