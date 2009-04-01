@@ -14,10 +14,7 @@ Enjoy.
 [2009-04-01/kind-of-awesome/]: 2009-04-01/kind-of-awesome/
 ### Kind of Awesome [∞][2009-04-01/kind-of-awesome/]
 
-<dl>
-	<dt>kind of awesome</dt>
-	<dd><p><i>(adj.)</i> A goodness that is worthy of awe, and yet subtle and/or understated.  A deep wonderousness that seems effortless, even obvious.</p></dd>
-</dl>
+*(adj.)* A goodness that is worthy of awe, and yet subtle and/or understated.  A deep wonderousness that seems effortless, even obvious.
 
 ## 2009-03-30
 
