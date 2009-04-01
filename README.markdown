@@ -9,6 +9,14 @@ as a blogging platform.
 
 Enjoy.
 
+## 2009-04-01
+
+[2009-04-01/kind-of-awesome/]: 2009-04-01/kind-of-awesome/
+### Kind of Awesome [∞][2009-04-01/kind-of-awesome/]
+
+kind of awesome
+:	*(adj.)* A goodness that is worthy of awe, and yet subtle and/or understated.  A deep wonderousness that seems effortless, even obvious.
+
 ## 2009-03-30
 
 [2009-03-30/robots-ninjas-and-bears/]: 2009-03-30/robots-ninjas-and-bears/
