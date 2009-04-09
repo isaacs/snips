@@ -9,6 +9,13 @@ as a blogging platform.
 
 Enjoy.
 
+## 2009-04-09
+
+[2009-04-09/responsibility/]: 2009-04-09/responsibility/
+### Responsibility [∞][2009-04-09/responsibility/]
+
+Sometimes I just can't believe how much Yahoo trusts me.  I'm basically rewriting the core javascript for a major project, and the justification is that I said we had to.
+
 ## 2009-04-01
 
 [2009-04-01/kind-of-awesome/]: 2009-04-01/kind-of-awesome/
