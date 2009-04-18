@@ -9,6 +9,15 @@ as a blogging platform.
 
 Enjoy.
 
+## 2009-04-17
+
+[2009-04-17/fish-sticks/]: 2009-04-17/fish-sticks/
+### Fish Sticks [∞][2009-04-17/fish-sticks/]
+
+"That's weird, I just started craving donuts."
+
+"I know! That's why I'm having fish sticks."
+
 ## 2009-04-09
 
 [2009-04-09/responsibility/]: 2009-04-09/responsibility/
