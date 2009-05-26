@@ -9,6 +9,13 @@ as a blogging platform.
 
 Enjoy.
 
+## 2009-05-25
+
+[2009-05-25/bees/]: 2009-05-25/bees/
+### Bees [∞][2009-05-25/bees/]
+
+We shared our chapstick.
+
 ## 2009-04-17
 
 [2009-04-17/fish-sticks/]: 2009-04-17/fish-sticks/
