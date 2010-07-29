@@ -9,6 +9,41 @@ as a blogging platform.
 
 Enjoy.
 
+## 2010-07-28
+
+[2010-07-28/forgot/]: 2010-07-28/forgot/
+### Forgot [∞][2010-07-28/forgot/]
+
+I totally forgot about this little blog.
+
+How completely odd.  I guess it got its job done.  Or maybe I just started writing in my  [tumblr blog](http://blog.izs.me/) more often.
+
+## 2009-07-10
+
+[2009-07-10/sharing/]: 2009-07-10/sharing/
+### Sharing [∞][2009-07-10/sharing/]
+
+Sharing code is like sharing minds.  It is every bit as intimate as a relationship with a lover — moreso, perhaps.  
+
+Unlike the things we share in other areas of our lives, there is no option for dishonesty, no artifice in which to hide.  By your comments, patterns, and bugs, your deepest and most intimate truths are exposed.  The very working of your mind is laid out in the editor's colored monotype for all to see, tracked in meticulous detail by your source control system, critiqued in cold honesty by the heartless computer.
+
+It is possible to develop a deep love or profound disdain for someone, simply by reading their code.  You can get a sense of intellects far above or beneath your own.  Our minds laid bare in the pursuit of beauty and magic, yearning for appreciation, correction, growth.  I am convinced: there is no other way on earth to achieve this level of naked vulnerability.  The connection is frightening and life affirming, powerful and cruel, lovingly cold.
+
+Perhaps it is right that programmers seem to give up a piece of their humanity in the pursuit of their craft.  What we get in return is worth the price.
+
+## 2009-07-02
+
+[2009-07-02/topics/]: 2009-07-02/topics/
+### Topics [∞][2009-07-02/topics/]
+
+I keep coming back to one singular topic.  
+So I tell myself that I'm not going to write about that.  
+But then, I don't write anything.
+
+The purpose of this is to unblock, and it has no other purpose.  I'm writing for no audience, and only capturing the output because it may be interesting to see what unblocking uncovers.
+
+So write about whatever you want.  Obsession is obsessed, but it's honest about it, at least, and that's the point.
+
 ## 2009-05-25
 
 [2009-05-25/bees/]: 2009-05-25/bees/
