@@ -1,25 +1,3 @@
-<?php 
-
-$file = $_SERVER['DOCUMENT_ROOT'].$_SERVER["REQUEST_URI"].'README.markdown';
-
-$raw = file_get_contents($file);
-
-include(dirname(__FILE__).'/markdown/markdown.php');
-$html = Markdown($raw);
-
-preg_match('~^#([^#].*)~', $raw, $matches);
-$title=$matches[1];
-
-$error = false;
-if (!trim($html)) {
-	$error = true;
-	$html = "<h1>huh?</h1><p>There was some kind of problem, I suppose.</p>";
-	$title = "whaa?";
-}
-
-ob_start();
-
-?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -94,15 +72,8 @@ dd {
 	margin: 0 0 0 2ex;
 }
 </style>
-<title><?php echo $title ?></title>
+<title>{{TITLE}}</title>
 </head>
 <body>
-<?php echo $html; ?>
+{{HTML}}
 </body></html>
-<?php
-$page = ob_get_contents();
-ob_end_flush();
-if (!$error) {
-	file_put_contents(dirname($file).'/index.html', $page . "\n<!-- cached -->");
-}
-echo "<!-- not cached -->";
