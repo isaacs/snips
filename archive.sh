@@ -1,7 +1,7 @@
 #!/bin/bash
-didstash=0
-git stash && didstash=1
-(
+#didstash=0
+#git stash && didstash=1
+#(
 	rm index.html	&>/dev/null
 	cat header.markdown 2>/dev/null
 	ls -F \
@@ -24,7 +24,7 @@ git stash && didstash=1
 			| sed 's|^#|###|g'
 		done
 	done
-) > README.markdown \
-&& git add README.markdown\
-&& git commit -m "Generate archive"
-[ $didstash -eq 1 ] && git stash pop
+#) > README.markdown \
+#&& git add README.markdown\
+#&& git commit -m "Generate archive"
+#[ $didstash -eq 1 ] && git stash pop
